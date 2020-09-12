@@ -2,79 +2,16 @@ html, body {
     line-height: 1.5;
 }
 
-
-.light-grey {
-    color: #000;
-    background-color: #f1f1f1;
-}
-
-.margin-top {
-    margin-top: 16px;
-}
-
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     margin: 10px 0;
-}
-
-.content {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.row-padding {
-    padding:0 8px;
-}
-
-.text-grey {
-    color: #757575;
-}
-
-.white {
-    background-color: #ffffff;
-}
-
-.box-shadow {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-}
-
-.display-container {
-    position: relative;
-}
-
-.container {
-    padding: 0.01em 16px;
-}
-
-.fa {
-    font: normal normal normal 14px/1 FontAwesome;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
-
-.margin-right {
-    margin-right: 16px;
-}
-
-.large {
-    font-size: 18px;
-}
-
-.text-teal{
-    color: #009688;
-}
-
-a:hover, .opacity {
-    opacity: 0.60;
-    text-decoration-line: underline;
 }
 
 h5{
     font-size:18px;
 
 }
+
 h6{
     font-size:16px;
 }
@@ -87,6 +24,79 @@ a:link{
     text-decoration-line: none;
 }
 
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.margin-right {
+    margin-right: 16px;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.margin-bottom{
+    padding-bottom: 16px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle{
+    padding-left: 30px;
+}
+
+.row-padding {
+    padding:0 8px;
+}
+
+.padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.display-container {
+    position: relative;
+}
+
+.background-color {
+    color: #000;
+    background-color: #ffe5d8 ;
+}
+
+.text-grey {
+    color: #757575;
+}
+
+.text-teal{
+    color: #ff6f69;
+}
+
+.box-color {
+    background-color: #eee3e7 ;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.large {
+    font-size: 18px;
+}
+
+.xxlarge {
+    font-size: 36px;
+}
+
 hr {
     display: block;
     unicode-bidi: isolate;
@@ -96,19 +106,8 @@ hr {
     margin-inline-end: auto;
 }
 
-.margin-bottom{
-    padding-bottom: 16px;
-}
-
 .left-column{
     width: 28%;
-}
-
-.middle{
-    padding-left: 30px;
-}
-.line{
-    line-height: 1.5;
 }
 
 .twothird{
@@ -119,27 +118,8 @@ hr {
     top:16px;
 }
 
-
-*, *:before{
-    box-sizing: inherit;
-}
-
 .container:before {
     content: "";
     display: table;
     clear: both;
-}
-
-div {
-    display: block;
-}
-
-.padding {
-    padding-top: 16px!important;
-    padding-bottom: 16px!important;
-}
-
-
-.xxlarge {
-    font-size: 36px;
 }
